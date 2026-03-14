@@ -8,13 +8,19 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
+import java.util.LinkedList;
+import java.util.List;
 
 public final class ProductiveBeesIntegrationItems {
     public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(Registries.ITEM, AvaritiaIntegration.MOD_ID);
 
+    public static final List<RegistryObject<? extends Item>> ITEMS = new LinkedList<>();
+
     public static final RegistryObject<Item> DIAMOND_LATTICE_COMB = register("diamond_lattice_comb", () -> new ProductiveBeesItem(new Item.Properties()));
 
     public static <T extends Item> RegistryObject<T> register(String id, Supplier<T> supplier) {
-        return REGISTRY.register(id, supplier);
+        RegistryObject<T> r = REGISTRY.register(id, supplier);
+        ITEMS.add(r);
+        return r;
     }
 }

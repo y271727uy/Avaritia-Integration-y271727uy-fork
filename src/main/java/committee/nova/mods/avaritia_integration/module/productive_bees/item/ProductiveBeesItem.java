@@ -1,4 +1,9 @@
 package committee.nova.mods.avaritia_integration.module.productive_bees.item;
 
-public class ProductiveBeesItem {
+import net.minecraft.world.item.Item;
+
+public class ProductiveBeesItem extends Item {
+	public ProductiveBeesItem(Properties properties) {
+		super(properties);
+	}
 }
