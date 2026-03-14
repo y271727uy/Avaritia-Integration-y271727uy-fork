@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "avaritia_integration:productive_bees/diamond_lattice_comb"
+    "layer0": "avaritia_integration:item/productive_bees/diamond_lattice_comb"
   }
 }
 

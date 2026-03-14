@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "avaritia_integration:item/productive_bees/star_fuel_comb"
+  }
+}

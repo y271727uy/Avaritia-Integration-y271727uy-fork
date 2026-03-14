@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "avaritia_integration:item/productive_bees/crystal_matrix_comb"
+  }
+}
+
