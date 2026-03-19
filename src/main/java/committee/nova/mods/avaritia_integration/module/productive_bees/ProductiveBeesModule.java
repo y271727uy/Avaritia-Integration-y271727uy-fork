@@ -2,6 +2,8 @@ package committee.nova.mods.avaritia_integration.module.productive_bees;
 
 import committee.nova.mods.avaritia_integration.module.Module;
 import committee.nova.mods.avaritia_integration.module.ModuleEntry;
+import committee.nova.mods.avaritia_integration.module.productive_bees.registry.ProductiveBeesIntegrationBlockEntities;
+import committee.nova.mods.avaritia_integration.module.productive_bees.registry.ProductiveBeesIntegrationBlocks;
 import committee.nova.mods.avaritia_integration.module.productive_bees.registry.ProductiveBeesIntegrationItems;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.RegistryObject;
@@ -15,6 +17,8 @@ public final class ProductiveBeesModule implements Module {
 	@Override
 	public void init(IEventBus registryBus) {
 		ProductiveBeesIntegrationItems.REGISTRY.register(registryBus);
+		ProductiveBeesIntegrationBlocks.REGISTRY.register(registryBus);
+		ProductiveBeesIntegrationBlockEntities.REGISTRY.register(registryBus);
 	}
 
 	@Override

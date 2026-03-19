@@ -94,6 +94,13 @@
   "block.avaritia_integration.neutron_solar_generator": "中子太阳能发电机",
   "block.avaritia_integration.infinity_advanced_solar_generator": "无尽高级太阳能发电机",
   "block.avaritia_integration.neutron_advanced_solar_generator": "中子高级太阳能发电机",
+  "block.avaritia_integration.comb_blaze_cube": "炽骨立方蜂巢块",
+  "block.avaritia_integration.comb_diamond_lattice": "钻石晶格蜂巢块",
+  "block.avaritia_integration.comb_crystal_matrix": "水晶矩阵蜂巢块",
+  "block.avaritia_integration.comb_nutronium": "中子态素蜂巢块",
+  "block.avaritia_integration.comb_infinity": "无尽蜂巢块",
+  "block.avaritia_integration.comb_star_fuel": "恒星燃料蜂巢块",
+  "block.avaritia_integration.neutronium_collector_nest": "中子态素收集巢",
 
   "tooltip.avaritia_integration.cooldown_amount": "冷却数量",
   "tooltip.avaritia_integration.cooldown_time": "冷却时间",

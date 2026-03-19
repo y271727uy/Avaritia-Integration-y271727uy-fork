@@ -1,0 +1,10 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "avaritia_integration:block/productive_bees/neutronium_collector_nest_end",
+    "bottom": "avaritia_integration:block/productive_bees/neutronium_collector_nest_end",
+    "side": "avaritia_integration:block/productive_bees/neutronium_collector_nest_all",
+    "front": "avaritia_integration:block/productive_bees/neutronium_collector_nest_north"
+  }
+}
+
